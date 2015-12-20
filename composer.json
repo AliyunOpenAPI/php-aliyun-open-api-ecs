@@ -26,12 +26,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Aliyun\\ECS\\": "src",
-      "Aliyun\\ECS\\Tests\\": "tests"
+      "Aliyun\\ECS\\": "src"
+
     }
   },
   "autoload-dev": {
     "psr-4": {
+      "Aliyun\\ECS\\Tests\\": "tests"
     }
   },
   "scripts": {
