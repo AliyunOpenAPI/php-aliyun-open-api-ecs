@@ -1,4 +1,4 @@
-<?php namespace Aliyun\ECS\Request\Test;
+<?php namespace Aliyun\ECS\Test\Request;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
