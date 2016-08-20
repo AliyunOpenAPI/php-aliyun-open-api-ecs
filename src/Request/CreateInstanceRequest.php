@@ -397,7 +397,7 @@ class CreateInstanceRequest extends RpcAcsRequest
     public function setSystemDiskSize($systemDiskSize)
     {
         $this->systemDiskSize                    = $systemDiskSize;
-        $this->queryParameters["SystemDiskSize"] = $systemDiskSize;
+        $this->queryParameters["SystemDisk.Size"] = $systemDiskSize;
     }
 
 
@@ -410,7 +410,7 @@ class CreateInstanceRequest extends RpcAcsRequest
     public function setSystemDiskCategory($systemDiskCategory)
     {
         $this->systemDiskCategory                    = $systemDiskCategory;
-        $this->queryParameters["SystemDiskCategory"] = $systemDiskCategory;
+        $this->queryParameters["SystemDisk.Category"] = $systemDiskCategory;
     }
 
 
@@ -423,7 +423,7 @@ class CreateInstanceRequest extends RpcAcsRequest
     public function setSystemDiskDiskName($systemDiskDiskName)
     {
         $this->systemDiskDiskName                    = $systemDiskDiskName;
-        $this->queryParameters["SystemDiskDiskName"] = $systemDiskDiskName;
+        $this->queryParameters["SystemDisk.DiskName"] = $systemDiskDiskName;
     }
 
 
@@ -436,7 +436,7 @@ class CreateInstanceRequest extends RpcAcsRequest
     public function setSystemDiskDescription($systemDiskDescription)
     {
         $this->systemDiskDescription                    = $systemDiskDescription;
-        $this->queryParameters["SystemDiskDescription"] = $systemDiskDescription;
+        $this->queryParameters["SystemDisk.Description"] = $systemDiskDescription;
     }
 
 
