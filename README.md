@@ -33,11 +33,6 @@ $config = [
 $endpoint = new Endpoint('cn-hangzhou', EndpointConfig::getRegionIds(), EndpointConfig::getProductDomains());
 EndpointProvider::setEndpoints([ $endpoint ]);
 
-/**
-* 配置网关
-*/
-$endpoint = new Endpoint('cn-hangzhou', EndpointConfig::getRegionIds(), EndpointConfig::getProductDomains());
-EndpointProvider::setEndpoints([ $endpoint ]);
 
 /**
  * 授权资料
